@@ -147,10 +147,10 @@ Baby.prototype.play = function() {
   TASK 4
 
   In your own words explain the four principles for the "this" keyword below:
-  1. 
-  2. 
-  3. 
-  4. 
+  1. If used in "global" code areas aka scope, this refers to the window or console object.
+  2. Whenever a Function is called in the form of Object.Function, the Object before the period is the "this" of Function.
+  3. When inside of a constructor function, "this" refers to the specific object that is being created by the constructor function.
+  4. When using .call or .apply, "this" is explicitly passed as a parameter to those functions.
 */
 
 
